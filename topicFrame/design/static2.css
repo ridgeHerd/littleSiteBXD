@@ -1,0 +1,78 @@
+/* static2 简洁风格 */
+
+table.staticT {
+	border:2px solid #222;
+	border-collapse:collapse;
+}
+table.staticT td {
+	border:1px solid #222;
+	height:36px;
+	width:75px;
+	text-align:center;
+	font-family:"黑体";
+	line-height:1.1em;
+}
+
+td.tpc9 {/*表头*/
+	height:30px;
+	background-color:orange;
+	font-size:11pt;
+}
+td.tpc0 { background-color:#AAA; }
+td.tpcn {
+	background-color:LightGreen;
+	font-size:11pt;
+}
+td.tpcn1 {
+	background-color:LightGreen;
+	font-size:11pt;
+	font-weight:bold;
+}
+td.sub0, td.tpc00 { background-color:lightblue; }
+td.tpc2, td.tpc3, td.tpc4, td.sub, td.all { font-size:14pt; }
+td.sub, td.all { color:orangered; }
+
+div#navi td { width:70px;min-width:70px; }
+
+/*概览*/
+table#staT0 {
+	margin-bottom:25px;
+	text-align:center;
+}
+table#staT0 td {
+	width:75px;
+	min-width:75px;
+}
+table#staT0 td.tpc9 { width:80px;min-width:80px; }
+td.tpctt {
+	font-weight:bold;
+	font-size:12pt;
+	color:yellow;
+	background-color:LimeGreen;
+}
+td.tpcnum {
+	font-family:"Arial";
+	font-size:13pt;
+	background-color:PaleTurquoise;
+}
+td.tpctnum {
+	font-family:"Arial";
+	font-weight:bold;
+	font-size:13pt;
+	background-color:LightBlue;
+}
+td.tpcttnum {
+	font-weight:bold;
+	font-size:15pt;
+	font-family:"Arial Black","Arial";
+	color:yellow;
+	background-color:cornflowerblue;
+}
+
+/*
+2015.12.27分离
+v1.1发布
+
+修改记录
+----------
+*/

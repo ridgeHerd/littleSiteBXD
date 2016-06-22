@@ -1,0 +1,44 @@
+/* 小网站统一顶端栏 */
+
+div.siteTopBar {
+	margin:2px 2px;
+	padding:2px 5px;
+	background-color:green;
+	color:yellow;
+	font-size:11pt;
+	font-family:"黑体","宋体",Serif;
+	border:none;
+	text-align:left;
+	text-indent:0;
+}
+
+a.barLink:link, a.barLink:visited {
+	color:yellow;
+	text-decoration:none;
+}
+a.barLink:hover, a.barLink:active {
+	color:orange;
+	text-decoration:underline;
+}
+
+span.siteName { color:#EEE;font-size:12pt; }
+span.siteThis { color:#CCC;font-size:11pt; }
+span.downloadlink { margin-left:100px; }
+span.server   { color:white;margin:0 2px; }
+span.help1    { color:lime; }
+
+button {
+	font-size:10pt;
+	font-family:"黑体";
+}
+
+p.funcs {
+	font-size:10pt;
+	color:#EEE;
+	font-family:"黑体";
+}
+
+/*
+2016.3.25开始编写，31发布
+
+*/

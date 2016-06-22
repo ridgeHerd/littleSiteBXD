@@ -1,0 +1,139 @@
+/* 聚落地名收集完备程度等级标准 样式 */
+
+body { margin:5px;background-color:#E0E0E0; }
+p    { margin:5px 0;line-height:1.3em; }
+div  { margin:0;padding:0; }
+
+p.para { text-indent:2em;font-size:11pt; } /* 默认样式。发布博客时注意联合p{}样式 */
+p.p0 { text-indent:0em; }
+.explain { font-family:"仿宋","华文仿宋","楷体","华文楷体";color:#222; }
+hr   { background-color:#666; }
+
+h2 {
+	font-family:"宋体","新宋体";
+	font-size:15pt;
+	font-weight:bold;
+}
+h3 {
+	font-family:"黑体";
+	font-size:13pt;
+	font-weight:bold;
+}
+
+.arial { font-family:Arial; }
+.heiti { font-family:"黑体"; }
+.fs9   { font-size:9pt; }
+.fs10  { font-size:10pt; }
+.fs11  { font-size:11pt; }
+.fs12  { font-size:12pt; }
+p.fs9   { font-size:9pt; }/*优先级问题*/
+p.fs10  { font-size:10pt; }
+p.fs11  { font-size:11pt; }
+p.fs12  { font-size:12pt; }
+p.narr  { margin:0 0; }
+.green { color:green; }
+.brown { color:brown; }
+.red   { color:red; }
+.orred { color:orangered; }
+.b     { font-weight:bold; }
+
+a.inner0:link, a.inner0:visited { color:inherit;text-decoration:underline; }
+a.inner0:hover, a.inner0:active { color:orangered;text-decoration:none; }
+a.good, a.good:visited          { color:blue;text-decoration:none; }
+a.good:hover, a.good:active     { color:orange;text-decoration:underline; }
+
+img.pic { border:1px solid #999; }
+/*img.icon*/
+
+div#wholepage { padding:5px;width:900px;min-width:900px;max-width:900px; }
+div.pagehead  { text-align:left;padding-left:5px; }
+div.pagehead hr { margin:2px 0px 10px -5px;height:1px;background-color:#555; }
+p#ptitle { font-size:18pt; }
+
+div#pagemain { padding:5px 10px; }
+
+span.ver   { font-size:13pt;font-weight:bold; }
+span.name  { font-family:"黑体";color:purple; }
+span.note1 { font-size:10pt;color:#888; }
+
+table {
+	border:none;
+	margin:5px 2em;
+}
+td {
+	border:none;
+	text-align:left;
+	vertical-align:top;
+	padding:3px 0;
+}
+/*maintable*/
+td.tbhd {
+	font-family:"黑体";
+	font-size:12pt;
+	color:blue;
+}
+td.grade {
+	font-family:"黑体";
+	font-size:12pt;
+	font-weight:bold;
+	width:80px;
+	min-width:80px;
+	max-width:90px;
+}
+td.gradeCer {
+	font-family:"黑体";
+	font-size:12pt;
+	font-weight:bold;
+	width:88px;
+	min-width:88px;
+	max-width:96px;
+}
+td.intro {
+	font-family:"宋体","仿宋","华文仿宋","楷体","华文楷体";
+	font-size:11pt;
+	width:550px;
+	min-width:550px;
+	max-width:700px;
+}
+/*extable*/
+table#extable    { border-collapse:collapse;border:2px solid #222; }
+table#extable td { border:1px solid #666;padding:2px 3px; }
+td.area {
+	font-family:"黑体";
+	font-size:11pt;
+	width:80px;
+	min-width:80px;
+	color:green;
+	vertical-align:middle;
+}
+td.offi {
+	font-family:"黑体";
+	font-size:12pt;
+	width:85px;
+	min-width:85px;
+}
+td.stan {
+	font-family:"黑体";
+	font-size:12pt;
+	width:80px;
+	min-width:80px;
+}
+td.fact {
+	font-family:"宋体";
+	font-size:11pt;
+	width:400px;
+	min-width:200px;
+}
+
+p.sign {
+	text-align:right;
+	font-family:"黑体","宋体";
+	font-size:10pt;
+	color:#888;
+	margin:0;
+}
+
+/*
+2016.3.21-22，在小地名等级网页基础上修改，25发布
+
+*/

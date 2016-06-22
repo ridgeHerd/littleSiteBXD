@@ -1,0 +1,23 @@
+/* static 基本布局 */
+
+div#main {
+	margin:20px;
+}
+div#navi { margin-left:10px; }
+div#main a.toTop { margin:10px; }
+
+div#conclusion {
+	margin-top:40px;
+}
+
+table.staticT {
+	margin:10px 10px;
+}
+
+/*
+2016.1.6分离
+v1.1发布
+
+修改记录
+----------
+*/

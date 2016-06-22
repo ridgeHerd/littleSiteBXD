@@ -1,0 +1,134 @@
+/* 详情页样式 */
+
+/* 段落 */
+p.topicIIpara {
+	margin:10px;
+	font-size:12pt;
+	font-family:"仿宋","华文仿宋","楷体",Sans-Serif;
+	text-align:left;
+	line-height:1.5em;
+}
+
+/* 主体表格 */
+table.maintable {
+	border-collapse:collapse;
+	border:none;
+	margin:10px 10px 25px 10px;
+}
+table.maintable td {
+	border-collapse:collapse;
+	border-spacing:2px;
+	border:none;
+	text-align:left;
+	vertical-align:top;
+	padding-top:5px;
+	padding-left:5px;
+	line-height:1.2em;
+}
+
+table.maintable td p {
+	margin:0px;
+	margin-bottom:2px;
+	padding:0px;
+	text-indent:2em;
+	text-align:left;
+}
+table.maintable td p.lastpara {/*样式采纳的优先级和样式的指定方式有关*/
+	margin-bottom:10px;
+}
+
+/* 尺寸 *//* 为什么这里的设置能覆盖具体页面(7_academia)里的td设置呢 */
+table.maintable td.topicIIdesg,
+table.maintable td.topicIIIdesg,
+table.maintable td.topicIVdesg {
+	width:60px;
+	min-width:60px;
+}
+table.maintable td.topicIIname,
+table.maintable td.topicIIIname,
+table.maintable td.topicIVname {
+	width:170px;
+	min-width:170px;
+}
+table.maintable td.descripII,
+table.maintable td.descripIII,
+table.maintable td.descripIV {
+	width:750px;
+	min-width:750px;
+}
+
+/* 内容 */
+table.maintable td.topicIIdesg {
+	font-size:14pt;
+	font-family:"Arial Black","Arial",Sans-Serif;
+	font-weight:normal;
+}
+table.maintable td.topicIIIdesg {
+	font-size:13pt;
+	font-family:"Arial",Sans-Serif;
+	font-weight:bold;
+}
+table.maintable td.topicIVdesg {
+	text-indent:2em;
+	font-size:12pt;
+	font-family:"Arial",Sans-Serif;
+}
+
+table.maintable td.topicIIname {
+	font-size:14pt;
+	font-family:"黑体",SimHei,Sans-Serif;
+	font-weight:bold;
+}
+table.maintable td.topicIIIname {
+	font-size:13pt;
+	font-family:"黑体",SimHei,Serif;
+}
+table.maintable td.topicIVname {
+	text-indent:1em;
+	font-size:13pt;
+	font-family:"楷体","华文楷体",Serif;
+	font-weight:bold;
+}
+
+table.maintable td.topicBdesg {
+	text-indent:0;
+	font-size:11pt;
+	font-family:"Arial",Sans-Serif;
+}
+table.maintable td.topicBname {
+	text-indent:1em;
+	font-size:13pt;
+	font-family:"楷体","华文楷体",Serif;
+	font-weight:bold;
+}
+
+table.maintable td.descripII {
+	font-family:"黑体",SimHei,"微软雅黑",Sans-Serif;
+	font-size:12pt;
+}
+table.maintable td.descripIII {
+	font-family:"新宋体","宋体",Serif;
+	font-size:12pt;
+}
+table.maintable td.descripIV {
+	font-family:"仿宋","华文仿宋",Serif;
+	font-size:13pt;
+}
+
+/* 一般 */
+span.hometopic {
+	font-size:12pt;
+	color:red;
+	font-family:"黑体",Sans-Serif;
+	margin:0px 2px;
+}
+
+/*
+陆续抽离
+2015.12.16初步完成
+12.31抽走次共性组件
+v1.1发布
+
+修改记录
+----------
+*/

@@ -1,0 +1,140 @@
+/* 方言民俗收集话题框架 v1.1 CSS */
+
+/* 详情页的主体div */
+div#mainlist { margin:20px; }
+
+/* 每页总结 */
+div#conclusion {
+	margin:10px -10px 20px -10px;
+	background-color:#F8F8F8;
+	padding:10px;
+}
+
+/* 导引(navi) */
+div#navi {
+	margin:10px 0px 20px 0px;
+	background-color:#F8F8F8;
+	padding:10px;
+}
+p#navititle {
+	line-height:1.5em;
+	font-weight:bold;
+	font-size:15pt;
+	font-family:"黑体",Sans-Serif;
+	text-indent:0em;
+}
+p#tip_ex {
+	margin:10px;
+	font-size:11pt;
+	font-family:"黑体","SimHei","新宋体",Sans-Serif;
+	text-align:left;
+	text-indent:0em;
+}
+table.tpcnavi {
+	margin:0px;
+	border:none;
+	border-spacing:3px;
+}
+table.tpcnavi td {
+	width:110px;
+	min-width:110px;
+	border:none;
+	font-size:12pt;
+	font-weight:normal;
+	font-family:"黑体","新宋体","宋体",Sans-Serif;
+	text-align:left;
+}
+a.navilink, a.navilink:visited { color:blue;text-decoration:none; }
+a.navilink:hover, a.navilink:active { color:orange;text-decoration:underline; }
+
+/* 话题简称 */
+span.nickname {
+	color:brown;
+	font-size:10pt;
+	font-family:"黑体",SimHei,Serif;
+	font-weight:normal;
+	letter-spacing:0px;
+}
+span.nicknameBig {
+	font-size:11pt;
+	letter-spacing:0px;/*强调一下，岿然不动*/
+}
+
+/* 准备几种常用段落样式 */
+p.para1 {
+	font-family:"新宋体","宋体";
+	font-size:11pt;
+}
+p.para2 {
+	font-family:'黑体';
+	font-size:11pt;
+}
+
+p.pnarr { margin:0;line-height:1.25em; }
+
+/* 栉比式缩进段落 */
+p.tab1 { text-indent:2em; }
+p.tab2 { text-indent:4em; }
+p.tab3 { text-indent:6em; }
+
+/*h标题*/
+h2 {
+	font-family:"黑体","SimHei",Sans-Serif;
+	font-size:14pt;
+	font-weight:bold;
+	text-align:left;
+	text-indent:0em;
+	line-height:1.3em;
+	margin:10px 0px;
+}
+h4 {
+	font-family:"新宋体","宋体","SimSong",Serif;
+	font-size:12pt;
+	font-weight:bold;
+	text-align:left;
+	text-indent:2em;
+	line-height:1.25em;
+	margin:5px 0px;
+}
+
+/* 以话题编号为链接 */
+a.tpcdtl         { color:black;text-decoration:none; }
+a.tpcdtl:visited { color:black;text-decoration:none; }
+a.tpcdtl:hover   { color:#999;text-decoration:none; }
+a.tpcdtl:active  { color:orange;text-decoration:none; }
+
+span.date {
+	font-family:"Arial",Sans-Serif;
+	margin:0em 0.1em;
+}
+span.num {
+	margin:0px 2px;
+	font-size:13pt;
+	font-family:"Arial",Sans-Serif;
+	font-weight:bold;
+}
+span.note1 {
+	font-family:"仿宋","华文仿宋","楷体","华文楷体";
+	font-size:inherit;
+}
+
+/* 颜色span */
+span.green  { color:green; }
+span.purple { color:purple; }
+span.blue   { color:blue; }
+span.red    { color:red; }
+span.grey   { color:#999; }
+
+/* 字体span */
+span.arial  { font-family:Arial;margin:0 1px; }
+span.bold   { font-weight:bold; }
+
+p.heitipara { font-family:"黑体"; }
+
+/*
+2015.12.30开始
+v1.1发布
+
+修改记录
+----------
+*/

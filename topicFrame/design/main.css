@@ -1,0 +1,246 @@
+/* 方言民俗收集话题框架 v1.1 CSS */
+
+/* 基本 */
+body { background-color:#E6E6E6;margin:2px; }
+div  { margin:0px;padding:0px; }
+div.pagemain {
+	width:1210px;
+	max-width:1210px;/*为了我框架文档的尊严，不设不行*/
+	padding:5px;
+}
+
+p       { text-align:left;margin:0px;text-indent:0em; }
+p.para  { text-indent:2em;line-height:1.3em;margin:0.5em 0em;font-size:11pt; }
+p.p0    { text-indent:0em; }
+
+a         { color:blue; }
+a:visited { color:blue; }
+a:hover   { color:orange;text-decoration:underline; }
+a:active  { color:orange;text-decoration:underline; }
+
+a.ordinary         { color:blue; }
+a.ordinary:visited { color:blue; }
+a.ordinary:hover   { color:orange;text-decoration:underline; }
+a.ordinary:active  { color:orange;text-decoration:underline; }
+a.good             { color:blue;text-decoration:none; }
+a.good:visited     { color:blue;text-decoration:none; }
+a.good:hover       { color:orange;text-decoration:underline; }
+a.good:active      { color:orange;text-decoration:underline; }
+a.headlink         { color:blue;text-decoration:none; }
+a.headlink:visited { color:blue;text-decoration:none; }
+a.headlink:hover   { color:orange;text-decoration:none; }
+a.headlink:active  { color:orange;text-decoration:underline; }
+a.inner            { color:green;text-decoration:underline; }
+a.inner:visited    { color:green;text-decoration:underline; }
+a.inner:hover      { color:orangered;text-decoration:underline; }
+a.inner:active     { color:orangered;text-decoration:underline;font-weight:bold; }
+
+abbr.note { font-style:italic; }
+
+em {
+	font-weight:bold;
+	font-style:normal;
+	margin:0px;
+}
+
+/* 说明段落 */
+p.text {
+	margin:3px 0px 3px 0px;
+	text-indent:0em;
+	line-height:1.25em;
+	font-size:12pt;
+	font-family:"黑体","新宋体","宋体","仿宋",Serif;
+	color:black;
+}
+p.text em {
+	text-indent:0em;
+	font-size:15pt;
+	font-family:"黑体",Sans-Serif;
+	color:black;
+}
+
+/* 共用的头部 */
+div#commonhead { /*头部*/
+	min-width:1260px;
+	padding:2px 5px;
+}
+p#commonheadp1 { /*月报名*/
+	font-size:11pt;
+	font-family:"黑体",Serif;
+	margin:0px;
+	text-align:left;
+	letter-spacing:2px;
+}
+p#commonheadp2 { /*月报英文名*/
+	font-size:8pt;
+	font-family:Arial,Sans-serif;
+	margin:0px;
+	text-align:left;
+	letter-spacing:0px;
+}
+p#commonheadp3 { /*框架名*/
+	font-size:16pt;
+	font-family:"黑体",SimHei,Serif;
+	margin-top:2px;
+	margin-bottom:0px;
+	text-align:center;
+	letter-spacing:1px;
+}
+p#commonheadp3 span#VER {/*版本*/
+	font-size:11pt;
+	letter-spacing:0px;
+}
+p#commonheadp4 { /*框架英文名*/
+	font-size:10pt;
+	font-family:Arial,Sans-serif;
+	margin:0px;
+	text-align:center;
+}
+p#commonheadp5 { /*标题*/
+	margin-top:14px;
+	margin-bottom:0px;
+	font-size:17pt;
+	font-weight:bold;
+	font-family:"宋体",SimSong,Serif;
+	text-align:center;
+	letter-spacing:2px;
+}
+p#commonheadp6 { /*路径*/
+	margin:0px;
+}
+p#commonheadp6 span#hp6s1 { /*路径*/
+	margin-left:10px;
+	font-size:11pt;
+	font-family:"黑体",Serif;
+	color:black;
+}
+hr#headhr {
+	height:2px;
+	background-color:#666;
+	margin:4px 10px;
+	border:none;
+}
+span.smallspan { font-size:10pt; }
+/*共用的尾部*/
+div#commonbottom {
+	min-width:1260px;
+	padding:2px 5px;
+}
+/*bottombar1*/
+div#bottombar1 {
+	width:100%;
+	background-color:#459955;
+	margin-bottom:1px;
+}
+#btmlinktable1 {
+	margin:auto auto;
+}
+#btmlinktable1 td {
+	width:85px;
+	min-width:85px;
+	height:22px;
+	min-height:22px;
+	text-align:center;
+}
+#btmlinktable1 a { /*小心！'a'与'a:link'是不同的*/
+	color:white;
+	text-decoration:none;
+	font-size:12pt;
+	font-family:"黑体",SimHei,Sans-Serif;
+}
+#btmlinktable1  a:visited  { color:white;text-decoration:none; }
+#btmlinktable1  a:hover    { color:white;text-decoration:underline; }
+#btmlinktable1  a:active   { color:#CCC;text-decoration:underline; }
+#commonbottom   a#thispage { font-weight:bold;color:yellow; }
+/*bottombar2*/
+div#bottombar2 {
+	width:100%;
+	background-color:#208530;
+}
+#btmlinktable2 {
+	margin:auto;
+}
+#btmlinktable2 td {
+	width:100px;
+	min-width:100px;
+	height:22px;
+	min-height:22px;
+	text-align:center;
+}
+#btmlinktable2 td.longTD  { width:140px;min-width:140px; }
+#btmlinktable2 td.shortTD { width:60px;min-width:60px; }
+#btmlinktable2 a {
+	color:white;
+	text-decoration:none;
+	font-size:11pt;
+	font-family:"黑体",SimHei,Sans-Serif;
+}
+#btmlinktable2 a:visited {
+	color:white;
+	text-decoration:none;
+}
+#btmlinktable2 a:hover {
+	text-decoration:underline;
+}
+#btmlinktable2 a:active {
+	color:#CCC;
+	text-decoration:underline;
+}
+/*尾部段落*/
+p#toTopP {
+	text-align:right;
+	margin:8px 0px;
+}
+p#signature {
+	text-align:right;
+	font-family:"宋体",Serif;
+	font-size:10pt;
+	margin:8px 0px;
+}
+p#bottomicon {
+	text-align:right;
+	margin:8px 0px;margin-bottom:4px;
+}
+
+p#signature a {
+	color:#AAA;
+	text-decoration:none;
+}
+p#signature a:visited {
+	color:#AAA;
+	text-decoration:none;
+}
+p#signature a:hover {
+	color:orange;
+	text-decoration:underline;
+}
+p#signature a:active {
+	color:orange;
+	text-decoration:underline;
+}
+
+/* 去顶部和去底部链接 */
+a.toTop, a.toBottom {
+	font-family:"黑体",SimHei,Sans-Serif;
+	font-size:11pt;
+	color:#AAA;
+	text-decoration:none;
+	font-weight:normal;
+}
+a.toTop:visited, a.toBottom:visited {
+	color:#AAA;
+	text-decoration:none;
+}
+a.toTop:hover, a.toTop:active, a.toBottom:hover, a.toBottom:active {
+	color:orange;
+	text-decoration:underline;
+}
+
+/*
+2015.12.26基本定型
+2016.3.13细调
+v1.1发布
+
+修改记录
+----------
+*/

@@ -1,0 +1,86 @@
+/* 话题列表样式 */
+
+/* 主体div */
+div#mainlist { margin:20px;padding-bottom:20px; }
+div.pagemain {
+	width:1000px;
+	min-width:1000px;
+	margin-top:20px;
+}
+
+/* 主体列表 */
+.topicI {
+	font-size:18pt;
+	font-family:"华文中宋","宋体","新宋体",Sans-Serif;
+	font-weight:bold;
+	margin:25pt 0px 7pt 0px;
+	letter-spacing:0.1em;
+}
+.topicII {
+	font-size:14pt;
+	font-family:"黑体",SimHei,Sans-Serif;
+	font-weight:bold;
+	margin:16pt 0px 7pt 0px;
+}
+.topicIII {
+	font-size:13pt;
+	font-family:"黑体",SimHei,Serif;
+	margin:5pt 0px;
+	text-indent:28pt;
+}
+.topicIVpara { /* HTML被我调教得顺心顺意 - 8969 */
+	text-indent:0em;
+	font-size:13pt;
+	font-family:"楷体","华文楷体",Serif;
+	font-weight:bold;
+	margin-left:56pt; /*text-indent:56pt;*/
+	line-height:1.5em;
+}
+.topicIV {
+	margin-right:15pt;
+	white-space:nowrap;
+}
+
+div#conclusion { margin:0px; }
+
+/* 一般 */
+
+/* 改写“回顶部”链接的样式 */
+a.toTop {
+	font-weight:normal;
+	letter-spacing:0px;
+	margin-left:4em;
+}
+.topicII a.toTop { /*小链接*/
+	font-size:10pt;
+	font-weight:normal;
+	letter-spacing:1px;
+	margin-left:4em;
+}
+
+/* 导航 */
+p.tpcnavi {
+	line-height:1.25em;
+	margin:0em;
+	font-size:12pt;
+	font-weight:normal;
+	font-family:"黑体","新宋体","宋体",Sans-Serif;
+}
+span.navitpcline {
+	margin:0em;
+	margin-right:10px;
+	font-size:11pt;
+	font-family:"新宋体","宋体","仿宋",Serif;
+	max-width:5em;
+	width:5em;
+	min-width:5em;
+}
+
+/*
+2015.12.30开始
+2016.1.13基本成型
+v1.1发布
+
+修改记录
+----------
+*/

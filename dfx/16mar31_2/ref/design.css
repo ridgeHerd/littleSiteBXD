@@ -1,0 +1,96 @@
+/* 小地名收集完备程度等级标准 样式 */
+
+body { margin:5px;background-color:#E0E0E0; }
+p { margin:5px 0;line-height:1.3em;text-indent:2em;font-size:11pt; }
+div { margin:0;padding:0; }
+
+p.p0 { text-indent:0em; }
+p.p2 { text-indent:4em; }
+.explain { font-family:"仿宋","华文仿宋","楷体","华文楷体";color:#222; }
+
+h2 {
+	font-family:"宋体","新宋体";
+	font-size:15pt;
+	font-weight:bold;
+}
+h3 {
+	font-family:"黑体";
+	font-size:13pt;
+	font-weight:bold;
+}
+
+.arial { font-family:Arial; }
+.heiti { font-family:"黑体"; }
+.fs9   { font-size:9pt; }
+.fs10  { font-size:10pt; }
+.fs12  { font-size:12pt; }
+.green { color:green; }
+.brown { color:brown; }
+.orred { color:orangered; }
+.b     { font-weight:bold; }
+
+a.inner0:link, a.inner0:visited { color:inherit;text-decoration:underline; }
+a.inner0:hover, a.inner0:active { color:orangered;text-decoration:none; }
+a.good, a.good:visited          { color:blue;text-decoration:none; }
+a.good:hover, a.good:active     { color:orange;text-decoration:underline; }
+
+img.pic { border:1px solid #999; }
+
+div#wholepage { padding:5px;width:900px;min-width:900px;max-width:900px; }
+div.pagehead  { text-align:left;padding-left:5px; }
+div.pagehead hr { margin:2px 0px 10px -5px;height:1px;background-color:#555; }
+p#ptitle { font-size:18pt; }
+
+div#pagemain { padding:5px 10px; }
+
+span.ver { font-size:13pt;font-weight:bold; }
+span.name { font-family:"黑体";color:purple; }
+
+p.pictitle {
+	font-family:"黑体";
+	font-size:12pt;
+}
+
+table {
+	border:none;
+	margin:5px 2em;
+}
+td {
+	border:none;
+	text-align:left;
+	vertical-align:top;
+	padding:3px 0;
+}
+td.tbhd {
+	font-family:"黑体";
+	font-size:12pt;
+	color:blue;
+}
+td.grade {
+	font-family:"黑体";
+	font-size:12pt;
+	font-weight:bold;
+	width:70px;
+	min-width:70px;
+	max-width:85px;
+}
+td.intro {
+	font-family:"宋体","仿宋","华文仿宋","楷体","华文楷体";
+	font-size:11pt;
+	width:550px;
+	min-width:550px;
+	max-width:700px;
+}
+
+p.sign {
+	text-align:right;
+	font-family:"黑体","宋体";
+	font-size:10pt;
+	color:#888;
+	margin:0;
+}
+
+/*
+v1.0:2016.3.19-21
+
+*/

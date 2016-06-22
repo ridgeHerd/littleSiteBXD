@@ -1,0 +1,12 @@
+/* 一种比较好看的链接样式 2015.12.24 BXD */
+
+a.bxdA1         { color:green;text-decoration:none; }
+a.bxdA1:visited { color:green;text-decoration:none; }
+a.bxdA1:hover   { color:red;text-decoration:underline; }
+a.bxdA1:active  { color:orange;text-decoration:none; }
+
+/*
+2015.12.24
+v1.1发布
+
+*/

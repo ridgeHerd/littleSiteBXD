@@ -1,0 +1,210 @@
+﻿/* DFX 小网站 样式 */
+
+/* 基本 */
+body { background-color:#E4E4E4;margin:5px; }
+p    { margin:0;padding:0;text-indent:2em;line-height:1.3em;font-size:11pt;color:black; }
+div  { margin:0;padding:0; }
+/* 公用 */
+div.screen { padding:5px; }
+div.header {
+	width:900px;
+	min-width:900px;
+	max-width:900px;
+	text-align:center;
+	border:1px solid #555;
+	padding:2px;
+	background-image:url(../pic/dfx1.jpg);
+}
+p.headp1 {
+	text-align:left;
+	font-family:'宋体';
+	font-size:12px;
+	color:#F0F0F0;
+	line-height:14px;
+	text-indent:0;
+}
+p.headp2 {
+	text-align:center;
+	font-family:"黑体",SimHei,Sans-Serif;
+	font-size:25px;
+	letter-spacing:3px;
+	text-indent:0;
+	margin-top:8px;
+	margin-bottom:10px;
+}
+p#bxdname {
+	letter-spacing:1px;
+	font-family:'微软雅黑','宋体','黑体';
+}
+p#bxdnameen {
+	font-size:11px;
+	font-family:Arial;
+}
+p#sitename { color:yellow; }
+
+span.arial { font-family:Arial; }
+span.tmp   { background:orange; }
+span.grey  { color:#AAA; }
+span.green { color:darkgreen; }
+p.grey { color:#AAA; }
+p.para { font-family:"黑体";margin:3px 0; }
+p.p0   { text-indent:0; }
+p.narr { margin:0 0;line-height:1.2em; }
+
+/* 水平菜单栏 */
+#headlink1 {
+	margin:2px 4px;
+	border-spacing:4px 0px;
+}
+#headlink1 td {
+	width:100px;
+	height:28px;
+	color:white;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid #F9F9F9;
+	opacity:1;
+}
+#headlink1 td:hover {
+	color:blue;
+	background-color:#E0E0E0;
+	opacity:0.7;
+}
+#headlink1 a:link, #headlink1 a:visited {
+	font-family:"黑体";
+	font-size:16px;
+	text-decoration:none;
+	letter-spacing:0px;
+	color:inherit;
+	opacity:1;
+}
+#headlink1 a:hover, #headlink1 a:active {
+	color:red;
+	font-weight:bold;
+	opacity:1;
+}
+
+/* 页面主体 */
+#pagemain {
+	width:900px;
+	min-width:900px;
+	max-width:900px;
+	height:600px;
+	border:1px solid #777;
+	padding:3px 3px;
+}
+#tableMain {
+	border:none;
+	margin:0;padding:0;
+}
+#tableMain td {
+	border:none;
+	border-collapse:collapse;
+	margin:0;padding:0;
+	vertical-align:top;
+	/*background:blue;*/
+}
+
+/* 尾部 */
+div#sign {
+	margin-top:5px;
+	width:900px;min-width:900px;max-sidth:900px;
+	border:none;
+	text-align:right;
+}
+div#sign p {
+	font-size:9pt;
+	font-family:"宋体";
+}
+/* 左侧栏 */
+div#leftBar {/*594*/
+	border:1px solid #999;
+	width:160px;min-width:160px;max-width:160px;
+	height:590px;
+	margin:0px;
+	padding:4px;
+}
+div#rightList {
+	border:1px solid #999;
+	width:auto;
+	margin-left:3px;
+	padding:2px;
+	padding:0;
+	/*background:yellow;*/
+	height:594px;/*588*/
+}
+
+div.leftMenu1 {
+	width:158px;
+	border:1px solid #999;
+	margin:3px 0px;
+	height:30px;
+	background-color:#BBB;
+}
+div.leftMenu1:hover, div.leftMenu1:active {
+	background-color:#E0E0E0;
+	border:2px solid #555;
+	width:166px;
+	height:28px;
+}
+p.menu1 {
+	text-indent:0;
+	font-family:"黑体","微软雅黑";
+	font-size:16px;
+	text-align:center;
+	vertical-align:middle;
+	margin:auto;
+}
+p.small {
+	text-indent:0;
+	line-height:1.2em;
+	text-align:center;
+	font-size:10pt;
+	font-family:"宋体";
+	color:#555;
+}
+div.divpic {
+	width:158px;min-width:158px;
+	text-align:center;
+}
+
+/* 简报 */
+div.article0 {
+	margin:5px 8px 4px 8px;
+	padding:3px;
+	border:2px solid #999;
+}
+div.article1 {
+	margin:6px 8px;
+	padding:3px;
+	border:1px solid #999;
+}
+div.article1:hover {
+	background-color:#D3D3D3;
+	border-color:orangered;
+	border-width:2px;
+	padding:2px;
+}
+p.briefTitle {
+	text-align:left;
+	text-indent:0;
+	font-size:11pt;
+	font-family:"黑体","宋体";
+	line-height:1.3em;
+	color:#666;
+}
+p.briefTitle a:link,
+p.briefTitle a:visited { color:inherit;text-decoration:none; }
+p.briefTitle a:hover   { color:inherit;text-decoration:underline;color:#666; }
+p.briefTitle a:active  { color:orangered; }
+p.brief {
+	text-align:left;
+	text-indent:2em;
+	font-size:10pt;
+	font-family:"宋体";
+	color:#333;
+	line-height:1.3em;
+}
+
+
+
