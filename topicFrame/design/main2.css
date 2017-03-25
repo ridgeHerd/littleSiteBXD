@@ -1,16 +1,16 @@
-/* ·½ÑÔÃñË×ÊÕ¼¯»°Ìâ¿ò¼Ü v1.1 CSS */
+/* æ–¹è¨€æ°‘ä¿—æ”¶é›†è¯é¢˜æ¡†æ¶ v1.1 CSS */
 
-/* ÏêÇéÒ³µÄÖ÷Ìådiv */
+/* è¯¦æƒ…é¡µçš„ä¸»ä½“div */
 div#mainlist { margin:20px; }
 
-/* Ã¿Ò³×Ü½á */
+/* æ¯é¡µæ€»ç»“ */
 div#conclusion {
 	margin:10px -10px 20px -10px;
 	background-color:#F8F8F8;
 	padding:10px;
 }
 
-/* µ¼Òı(navi) */
+/* å¯¼å¼•(navi) */
 div#navi {
 	margin:10px 0px 20px 0px;
 	background-color:#F8F8F8;
@@ -20,13 +20,13 @@ p#navititle {
 	line-height:1.5em;
 	font-weight:bold;
 	font-size:15pt;
-	font-family:"ºÚÌå",Sans-Serif;
+	font-family:"é»‘ä½“",Sans-Serif;
 	text-indent:0em;
 }
 p#tip_ex {
 	margin:10px;
 	font-size:11pt;
-	font-family:"ºÚÌå","SimHei","ĞÂËÎÌå",Sans-Serif;
+	font-family:"é»‘ä½“","SimHei","æ–°å®‹ä½“",Sans-Serif;
 	text-align:left;
 	text-indent:0em;
 }
@@ -41,45 +41,45 @@ table.tpcnavi td {
 	border:none;
 	font-size:12pt;
 	font-weight:normal;
-	font-family:"ºÚÌå","ĞÂËÎÌå","ËÎÌå",Sans-Serif;
+	font-family:"é»‘ä½“","æ–°å®‹ä½“","å®‹ä½“",Sans-Serif;
 	text-align:left;
 }
 a.navilink, a.navilink:visited { color:blue;text-decoration:none; }
 a.navilink:hover, a.navilink:active { color:orange;text-decoration:underline; }
 
-/* »°Ìâ¼ò³Æ */
+/* è¯é¢˜ç®€ç§° */
 span.nickname {
 	color:brown;
 	font-size:10pt;
-	font-family:"ºÚÌå",SimHei,Serif;
+	font-family:"é»‘ä½“",SimHei,Serif;
 	font-weight:normal;
 	letter-spacing:0px;
 }
 span.nicknameBig {
 	font-size:11pt;
-	letter-spacing:0px;/*Ç¿µ÷Ò»ÏÂ£¬¿ùÈ»²»¶¯*/
+	letter-spacing:0px;/*å¼ºè°ƒä¸€ä¸‹ï¼Œå²¿ç„¶ä¸åŠ¨*/
 }
 
-/* ×¼±¸¼¸ÖÖ³£ÓÃ¶ÎÂäÑùÊ½ */
+/* å‡†å¤‡å‡ ç§å¸¸ç”¨æ®µè½æ ·å¼ */
 p.para1 {
-	font-family:"ĞÂËÎÌå","ËÎÌå";
+	font-family:"æ–°å®‹ä½“","å®‹ä½“";
 	font-size:11pt;
 }
 p.para2 {
-	font-family:'ºÚÌå';
+	font-family:'é»‘ä½“';
 	font-size:11pt;
 }
 
 p.pnarr { margin:0;line-height:1.25em; }
 
-/* èÎ±ÈÊ½Ëõ½ø¶ÎÂä */
+/* æ ‰æ¯”å¼ç¼©è¿›æ®µè½ */
 p.tab1 { text-indent:2em; }
 p.tab2 { text-indent:4em; }
 p.tab3 { text-indent:6em; }
 
-/*h±êÌâ*/
+/*hæ ‡é¢˜*/
 h2 {
-	font-family:"ºÚÌå","SimHei",Sans-Serif;
+	font-family:"é»‘ä½“","SimHei",Sans-Serif;
 	font-size:14pt;
 	font-weight:bold;
 	text-align:left;
@@ -88,7 +88,7 @@ h2 {
 	margin:10px 0px;
 }
 h4 {
-	font-family:"ĞÂËÎÌå","ËÎÌå","SimSong",Serif;
+	font-family:"æ–°å®‹ä½“","å®‹ä½“","SimSong",Serif;
 	font-size:12pt;
 	font-weight:bold;
 	text-align:left;
@@ -97,7 +97,7 @@ h4 {
 	margin:5px 0px;
 }
 
-/* ÒÔ»°Ìâ±àºÅÎªÁ´½Ó */
+/* ä»¥è¯é¢˜ç¼–å·ä¸ºé“¾æ¥ */
 a.tpcdtl         { color:black;text-decoration:none; }
 a.tpcdtl:visited { color:black;text-decoration:none; }
 a.tpcdtl:hover   { color:#999;text-decoration:none; }
@@ -114,27 +114,29 @@ span.num {
 	font-weight:bold;
 }
 span.note1 {
-	font-family:"·ÂËÎ","»ªÎÄ·ÂËÎ","¿¬Ìå","»ªÎÄ¿¬Ìå";
+	font-family:"ä»¿å®‹","åæ–‡ä»¿å®‹","æ¥·ä½“","åæ–‡æ¥·ä½“";
 	font-size:inherit;
 }
 
-/* ÑÕÉ«span */
+/* é¢œè‰²span */
 span.green  { color:green; }
 span.purple { color:purple; }
 span.blue   { color:blue; }
 span.red    { color:red; }
 span.grey   { color:#999; }
 
-/* ×ÖÌåspan */
+/* å­—ä½“span */
 span.arial  { font-family:Arial;margin:0 1px; }
 span.bold   { font-weight:bold; }
 
-p.heitipara { font-family:"ºÚÌå"; }
+p.heitipara { font-family:"é»‘ä½“"; }
 
 /*
-2015.12.30¿ªÊ¼
-v1.1·¢²¼
+2015.12.30å¼€å§‹
+v1.1å‘å¸ƒ
 
-ĞŞ¸Ä¼ÇÂ¼
+ä¿®æ”¹è®°å½•
 ----------
+2017.3.22å¼€å§‹v.1.1.2ä¿®è®¢
+
 */

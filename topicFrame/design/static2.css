@@ -1,4 +1,4 @@
-/* static2 ¼ò½à·ç¸ñ */
+/* static2 ç®€æ´é£æ ¼ */
 
 table.staticT {
 	border:2px solid #222;
@@ -9,11 +9,11 @@ table.staticT td {
 	height:36px;
 	width:75px;
 	text-align:center;
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	line-height:1.1em;
 }
 
-td.tpc9 {/*±íÍ·*/
+td.tpc9 {/*è¡¨å¤´*/
 	height:30px;
 	background-color:orange;
 	font-size:11pt;
@@ -34,7 +34,7 @@ td.sub, td.all { color:orangered; }
 
 div#navi td { width:70px;min-width:70px; }
 
-/*¸ÅÀÀ*/
+/*æ¦‚è§ˆ*/
 table#staT0 {
 	margin-bottom:25px;
 	text-align:center;
@@ -70,9 +70,11 @@ td.tpcttnum {
 }
 
 /*
-2015.12.27·ÖÀë
-v1.1·¢²¼
+2015.12.27åˆ†ç¦»
+v1.1å‘å¸ƒ
 
-ĞŞ¸Ä¼ÇÂ¼
+ä¿®æ”¹è®°å½•
 ----------
+2017.3.22å¼€å§‹v.1.1.2ä¿®è®¢
+
 */

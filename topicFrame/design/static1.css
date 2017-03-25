@@ -1,4 +1,4 @@
-/* static1 古朴风格 */
+/* static1 鍙ゆ湸椋庢牸 */
 
 table.staticT {
 	border:3pt solid #666;
@@ -8,11 +8,11 @@ table.staticT td {
 	height:36px;
 	width:75px;
 	text-align:center;
-	font-family:"黑体";
+	font-family:"榛戜綋";
 	line-height:1.1em;
 }
 
-td.tpc9 {/*表头*/
+td.tpc9 {/*琛ㄥご*/
 	height:30px;
 	background-color:orange;
 	font-size:11pt;
@@ -33,7 +33,7 @@ td.sub, td.all { color:orangered; }
 
 div#navi td { width:70px;min-width:70px; }
 
-/*概览*/
+/*姒傝*/
 table#staT0 {
 	margin-bottom:25px;
 	text-align:center;
@@ -70,9 +70,11 @@ td.tpcttnum {
 }
 
 /*
-2015.12.27分离
-v1.1发布
+2015.12.27鍒嗙
+v1.1鍙戝竷
 
-修改记录
+淇敼璁板綍
 ----------
+2017.3.22寮�濮媣.1.1.2淇
+
 */

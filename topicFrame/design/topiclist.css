@@ -1,6 +1,6 @@
-/* »°ÌâÁĞ±íÑùÊ½ */
+/* è¯é¢˜åˆ—è¡¨æ ·å¼ */
 
-/* Ö÷Ìådiv */
+/* ä¸»ä½“div */
 div#mainlist { margin:20px;padding-bottom:20px; }
 div.pagemain {
 	width:1000px;
@@ -8,30 +8,30 @@ div.pagemain {
 	margin-top:20px;
 }
 
-/* Ö÷ÌåÁĞ±í */
+/* ä¸»ä½“åˆ—è¡¨ */
 .topicI {
 	font-size:18pt;
-	font-family:"»ªÎÄÖĞËÎ","ËÎÌå","ĞÂËÎÌå",Sans-Serif;
+	font-family:"åæ–‡ä¸­å®‹","å®‹ä½“","æ–°å®‹ä½“",Sans-Serif;
 	font-weight:bold;
 	margin:25pt 0px 7pt 0px;
 	letter-spacing:0.1em;
 }
 .topicII {
 	font-size:14pt;
-	font-family:"ºÚÌå",SimHei,Sans-Serif;
+	font-family:"é»‘ä½“",SimHei,Sans-Serif;
 	font-weight:bold;
 	margin:16pt 0px 7pt 0px;
 }
 .topicIII {
 	font-size:13pt;
-	font-family:"ºÚÌå",SimHei,Serif;
+	font-family:"é»‘ä½“",SimHei,Serif;
 	margin:5pt 0px;
 	text-indent:28pt;
 }
-.topicIVpara { /* HTML±»ÎÒµ÷½ÌµÃË³ĞÄË³Òâ - 8969 */
+.topicIVpara { /* HTMLè¢«æˆ‘è°ƒæ•™å¾—é¡ºå¿ƒé¡ºæ„ - 8969 */
 	text-indent:0em;
 	font-size:13pt;
-	font-family:"¿¬Ìå","»ªÎÄ¿¬Ìå",Serif;
+	font-family:"æ¥·ä½“","åæ–‡æ¥·ä½“",Serif;
 	font-weight:bold;
 	margin-left:56pt; /*text-indent:56pt;*/
 	line-height:1.5em;
@@ -43,44 +43,46 @@ div.pagemain {
 
 div#conclusion { margin:0px; }
 
-/* Ò»°ã */
+/* ä¸€èˆ¬ */
 
-/* ¸ÄĞ´¡°»Ø¶¥²¿¡±Á´½ÓµÄÑùÊ½ */
+/* æ”¹å†™â€œå›é¡¶éƒ¨â€é“¾æ¥çš„æ ·å¼ */
 a.toTop {
 	font-weight:normal;
 	letter-spacing:0px;
 	margin-left:4em;
 }
-.topicII a.toTop { /*Ğ¡Á´½Ó*/
+.topicII a.toTop { /*å°é“¾æ¥*/
 	font-size:10pt;
 	font-weight:normal;
 	letter-spacing:1px;
 	margin-left:4em;
 }
 
-/* µ¼º½ */
+/* å¯¼èˆª */
 p.tpcnavi {
 	line-height:1.25em;
 	margin:0em;
 	font-size:12pt;
 	font-weight:normal;
-	font-family:"ºÚÌå","ĞÂËÎÌå","ËÎÌå",Sans-Serif;
+	font-family:"é»‘ä½“","æ–°å®‹ä½“","å®‹ä½“",Sans-Serif;
 }
 span.navitpcline {
 	margin:0em;
 	margin-right:10px;
 	font-size:11pt;
-	font-family:"ĞÂËÎÌå","ËÎÌå","·ÂËÎ",Serif;
+	font-family:"æ–°å®‹ä½“","å®‹ä½“","ä»¿å®‹",Serif;
 	max-width:5em;
 	width:5em;
 	min-width:5em;
 }
 
 /*
-2015.12.30¿ªÊ¼
-2016.1.13»ù±¾³ÉĞÍ
-v1.1·¢²¼
+2015.12.30å¼€å§‹
+2016.1.13åŸºæœ¬æˆå‹
+v1.1å‘å¸ƒ
 
-ĞŞ¸Ä¼ÇÂ¼
+ä¿®æ”¹è®°å½•
 ----------
+2017.3.22å¼€å§‹v.1.1.2ä¿®è®¢
+
 */

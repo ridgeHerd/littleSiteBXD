@@ -1,15 +1,15 @@
-/* ÏêÇéÒ³ÑùÊ½ */
+/* è¯¦æƒ…é¡µæ ·å¼ */
 
-/* ¶ÎÂä */
+/* æ®µè½ */
 p.topicIIpara {
 	margin:10px;
 	font-size:12pt;
-	font-family:"·ÂËÎ","»ªÎÄ·ÂËÎ","¿¬Ìå",Sans-Serif;
+	font-family:"ä»¿å®‹","åæ–‡ä»¿å®‹","æ¥·ä½“",Sans-Serif;
 	text-align:left;
 	line-height:1.5em;
 }
 
-/* Ö÷Ìå±í¸ñ */
+/* ä¸»ä½“è¡¨æ ¼ */
 table.maintable {
 	border-collapse:collapse;
 	border:none;
@@ -33,11 +33,11 @@ table.maintable td p {
 	text-indent:2em;
 	text-align:left;
 }
-table.maintable td p.lastpara {/*ÑùÊ½²ÉÄÉµÄÓÅÏÈ¼¶ºÍÑùÊ½µÄÖ¸¶¨·½Ê½ÓĞ¹Ø*/
+table.maintable td p.lastpara {/*æ ·å¼é‡‡çº³çš„ä¼˜å…ˆçº§å’Œæ ·å¼çš„æŒ‡å®šæ–¹å¼æœ‰å…³*/
 	margin-bottom:10px;
 }
 
-/* ³ß´ç *//* ÎªÊ²Ã´ÕâÀïµÄÉèÖÃÄÜ¸²¸Ç¾ßÌåÒ³Ãæ(7_academia)ÀïµÄtdÉèÖÃÄØ */
+/* å°ºå¯¸ *//* ä¸ºä»€ä¹ˆè¿™é‡Œçš„è®¾ç½®èƒ½è¦†ç›–å…·ä½“é¡µé¢(7_academia)é‡Œçš„tdè®¾ç½®å‘¢ */
 table.maintable td.topicIIdesg,
 table.maintable td.topicIIIdesg,
 table.maintable td.topicIVdesg {
@@ -57,7 +57,7 @@ table.maintable td.descripIV {
 	min-width:750px;
 }
 
-/* ÄÚÈİ */
+/* å†…å®¹ */
 table.maintable td.topicIIdesg {
 	font-size:14pt;
 	font-family:"Arial Black","Arial",Sans-Serif;
@@ -76,17 +76,17 @@ table.maintable td.topicIVdesg {
 
 table.maintable td.topicIIname {
 	font-size:14pt;
-	font-family:"ºÚÌå",SimHei,Sans-Serif;
+	font-family:"é»‘ä½“",SimHei,Sans-Serif;
 	font-weight:bold;
 }
 table.maintable td.topicIIIname {
 	font-size:13pt;
-	font-family:"ºÚÌå",SimHei,Serif;
+	font-family:"é»‘ä½“",SimHei,Serif;
 }
 table.maintable td.topicIVname {
 	text-indent:1em;
 	font-size:13pt;
-	font-family:"¿¬Ìå","»ªÎÄ¿¬Ìå",Serif;
+	font-family:"æ¥·ä½“","åæ–‡æ¥·ä½“",Serif;
 	font-weight:bold;
 }
 
@@ -98,37 +98,39 @@ table.maintable td.topicBdesg {
 table.maintable td.topicBname {
 	text-indent:1em;
 	font-size:13pt;
-	font-family:"¿¬Ìå","»ªÎÄ¿¬Ìå",Serif;
+	font-family:"æ¥·ä½“","åæ–‡æ¥·ä½“",Serif;
 	font-weight:bold;
 }
 
 table.maintable td.descripII {
-	font-family:"ºÚÌå",SimHei,"Î¢ÈíÑÅºÚ",Sans-Serif;
+	font-family:"é»‘ä½“",SimHei,"å¾®è½¯é›…é»‘",Sans-Serif;
 	font-size:12pt;
 }
 table.maintable td.descripIII {
-	font-family:"ĞÂËÎÌå","ËÎÌå",Serif;
+	font-family:"æ–°å®‹ä½“","å®‹ä½“",Serif;
 	font-size:12pt;
 }
 table.maintable td.descripIV {
-	font-family:"·ÂËÎ","»ªÎÄ·ÂËÎ",Serif;
+	font-family:"ä»¿å®‹","åæ–‡ä»¿å®‹",Serif;
 	font-size:13pt;
 }
 
-/* Ò»°ã */
+/* ä¸€èˆ¬ */
 span.hometopic {
 	font-size:12pt;
 	color:red;
-	font-family:"ºÚÌå",Sans-Serif;
+	font-family:"é»‘ä½“",Sans-Serif;
 	margin:0px 2px;
 }
 
 /*
-Â½Ğø³éÀë
-2015.12.16³õ²½Íê³É
-12.31³é×ß´Î¹²ĞÔ×é¼ş
-v1.1·¢²¼
+é™†ç»­æŠ½ç¦»
+2015.12.16åˆæ­¥å®Œæˆ
+12.31æŠ½èµ°æ¬¡å…±æ€§ç»„ä»¶
+v1.1å‘å¸ƒ
 
-ĞŞ¸Ä¼ÇÂ¼
+ä¿®æ”¹è®°å½•
 ----------
+2017.3.22å¼€å§‹v.1.1.2ä¿®è®¢
+
 */

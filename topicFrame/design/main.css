@@ -1,11 +1,11 @@
-/* ·½ÑÔÃñË×ÊÕ¼¯»°Ìâ¿ò¼Ü v1.1 CSS */
+/* æ–¹è¨€æ°‘ä¿—æ”¶é›†è¯é¢˜æ¡†æ¶ v1.1 CSS */
 
-/* »ù±¾ */
+/* åŸºæœ¬ */
 body { background-color:#E6E6E6;margin:2px; }
 div  { margin:0px;padding:0px; }
 div.pagemain {
 	width:1210px;
-	max-width:1210px;/*ÎªÁËÎÒ¿ò¼ÜÎÄµµµÄ×ğÑÏ£¬²»Éè²»ĞĞ*/
+	max-width:1210px;/*ä¸ºäº†æˆ‘æ¡†æ¶æ–‡æ¡£çš„å°Šä¸¥ï¼Œä¸è®¾ä¸è¡Œ*/
 	padding:5px;
 }
 
@@ -43,75 +43,75 @@ em {
 	margin:0px;
 }
 
-/* ËµÃ÷¶ÎÂä */
+/* è¯´æ˜æ®µè½ */
 p.text {
 	margin:3px 0px 3px 0px;
 	text-indent:0em;
 	line-height:1.25em;
 	font-size:12pt;
-	font-family:"ºÚÌå","ĞÂËÎÌå","ËÎÌå","·ÂËÎ",Serif;
+	font-family:"é»‘ä½“","æ–°å®‹ä½“","å®‹ä½“","ä»¿å®‹",Serif;
 	color:black;
 }
 p.text em {
 	text-indent:0em;
 	font-size:15pt;
-	font-family:"ºÚÌå",Sans-Serif;
+	font-family:"é»‘ä½“",Sans-Serif;
 	color:black;
 }
 
-/* ¹²ÓÃµÄÍ·²¿ */
-div#commonhead { /*Í·²¿*/
+/* å…±ç”¨çš„å¤´éƒ¨ */
+div#commonhead { /*å¤´éƒ¨*/
 	min-width:1260px;
 	padding:2px 5px;
 }
-p#commonheadp1 { /*ÔÂ±¨Ãû*/
+p#commonheadp1 { /*æœˆæŠ¥å*/
 	font-size:11pt;
-	font-family:"ºÚÌå",Serif;
+	font-family:"é»‘ä½“",Serif;
 	margin:0px;
 	text-align:left;
 	letter-spacing:2px;
 }
-p#commonheadp2 { /*ÔÂ±¨Ó¢ÎÄÃû*/
+p#commonheadp2 { /*æœˆæŠ¥è‹±æ–‡å*/
 	font-size:8pt;
 	font-family:Arial,Sans-serif;
 	margin:0px;
 	text-align:left;
 	letter-spacing:0px;
 }
-p#commonheadp3 { /*¿ò¼ÜÃû*/
+p#commonheadp3 { /*æ¡†æ¶å*/
 	font-size:16pt;
-	font-family:"ºÚÌå",SimHei,Serif;
+	font-family:"é»‘ä½“",SimHei,Serif;
 	margin-top:2px;
 	margin-bottom:0px;
 	text-align:center;
 	letter-spacing:1px;
 }
-p#commonheadp3 span#VER {/*°æ±¾*/
+p#commonheadp3 span#VER {/*ç‰ˆæœ¬*/
 	font-size:11pt;
 	letter-spacing:0px;
 }
-p#commonheadp4 { /*¿ò¼ÜÓ¢ÎÄÃû*/
+p#commonheadp4 { /*æ¡†æ¶è‹±æ–‡å*/
 	font-size:10pt;
 	font-family:Arial,Sans-serif;
 	margin:0px;
 	text-align:center;
 }
-p#commonheadp5 { /*±êÌâ*/
+p#commonheadp5 { /*æ ‡é¢˜*/
 	margin-top:14px;
 	margin-bottom:0px;
 	font-size:17pt;
 	font-weight:bold;
-	font-family:"ËÎÌå",SimSong,Serif;
+	font-family:"å®‹ä½“",SimSong,Serif;
 	text-align:center;
 	letter-spacing:2px;
 }
-p#commonheadp6 { /*Â·¾¶*/
+p#commonheadp6 { /*è·¯å¾„*/
 	margin:0px;
 }
-p#commonheadp6 span#hp6s1 { /*Â·¾¶*/
+p#commonheadp6 span#hp6s1 { /*è·¯å¾„*/
 	margin-left:10px;
 	font-size:11pt;
-	font-family:"ºÚÌå",Serif;
+	font-family:"é»‘ä½“",Serif;
 	color:black;
 }
 hr#headhr {
@@ -121,7 +121,7 @@ hr#headhr {
 	border:none;
 }
 span.smallspan { font-size:10pt; }
-/*¹²ÓÃµÄÎ²²¿*/
+/*å…±ç”¨çš„å°¾éƒ¨*/
 div#commonbottom {
 	min-width:1260px;
 	padding:2px 5px;
@@ -142,11 +142,11 @@ div#bottombar1 {
 	min-height:22px;
 	text-align:center;
 }
-#btmlinktable1 a { /*Ğ¡ĞÄ£¡'a'Óë'a:link'ÊÇ²»Í¬µÄ*/
+#btmlinktable1 a { /*å°å¿ƒï¼'a'ä¸'a:link'æ˜¯ä¸åŒçš„*/
 	color:white;
 	text-decoration:none;
 	font-size:12pt;
-	font-family:"ºÚÌå",SimHei,Sans-Serif;
+	font-family:"é»‘ä½“",SimHei,Sans-Serif;
 }
 #btmlinktable1  a:visited  { color:white;text-decoration:none; }
 #btmlinktable1  a:hover    { color:white;text-decoration:underline; }
@@ -173,7 +173,7 @@ div#bottombar2 {
 	color:white;
 	text-decoration:none;
 	font-size:11pt;
-	font-family:"ºÚÌå",SimHei,Sans-Serif;
+	font-family:"é»‘ä½“",SimHei,Sans-Serif;
 }
 #btmlinktable2 a:visited {
 	color:white;
@@ -186,14 +186,14 @@ div#bottombar2 {
 	color:#CCC;
 	text-decoration:underline;
 }
-/*Î²²¿¶ÎÂä*/
+/*å°¾éƒ¨æ®µè½*/
 p#toTopP {
 	text-align:right;
 	margin:8px 0px;
 }
 p#signature {
 	text-align:right;
-	font-family:"ËÎÌå",Serif;
+	font-family:"å®‹ä½“",Serif;
 	font-size:10pt;
 	margin:8px 0px;
 }
@@ -219,9 +219,9 @@ p#signature a:active {
 	text-decoration:underline;
 }
 
-/* È¥¶¥²¿ºÍÈ¥µ×²¿Á´½Ó */
+/* å»é¡¶éƒ¨å’Œå»åº•éƒ¨é“¾æ¥ */
 a.toTop, a.toBottom {
-	font-family:"ºÚÌå",SimHei,Sans-Serif;
+	font-family:"é»‘ä½“",SimHei,Sans-Serif;
 	font-size:11pt;
 	color:#AAA;
 	text-decoration:none;
@@ -237,10 +237,12 @@ a.toTop:hover, a.toTop:active, a.toBottom:hover, a.toBottom:active {
 }
 
 /*
-2015.12.26»ù±¾¶¨ĞÍ
-2016.3.13Ï¸µ÷
-v1.1·¢²¼
+2015.12.26åŸºæœ¬å®šå‹
+2016.3.13ç»†è°ƒ
+v1.1å‘å¸ƒ
 
-ĞŞ¸Ä¼ÇÂ¼
+ä¿®æ”¹è®°å½•
 ----------
+2017.3.22å¼€å§‹v.1.1.2ä¿®è®¢
+
 */
