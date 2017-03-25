@@ -1,4 +1,4 @@
-/* Ğ¡µØÃûÊÕ¼¯Íê±¸³Ì¶ÈµÈ¼¶±ê×¼ ÑùÊ½ */
+/* å°åœ°åæ”¶é›†å®Œå¤‡ç¨‹åº¦ç­‰çº§æ ‡å‡† æ ·å¼ */
 
 body { margin:5px;background-color:#E0E0E0; }
 p { margin:5px 0;line-height:1.3em;text-indent:2em;font-size:11pt; }
@@ -6,21 +6,21 @@ div { margin:0;padding:0; }
 
 p.p0 { text-indent:0em; }
 p.p2 { text-indent:4em; }
-.explain { font-family:"·ÂËÎ","»ªÎÄ·ÂËÎ","¿¬Ìå","»ªÎÄ¿¬Ìå";color:#222; }
+.explain { font-family:"ä»¿å®‹","åæ–‡ä»¿å®‹","æ¥·ä½“","åæ–‡æ¥·ä½“";color:#222; }
 
 h2 {
-	font-family:"ËÎÌå","ĞÂËÎÌå";
+	font-family:"å®‹ä½“","æ–°å®‹ä½“";
 	font-size:15pt;
 	font-weight:bold;
 }
 h3 {
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	font-size:13pt;
 	font-weight:bold;
 }
 
 .arial { font-family:Arial; }
-.heiti { font-family:"ºÚÌå"; }
+.heiti { font-family:"é»‘ä½“"; }
 .fs9   { font-size:9pt; }
 .fs10  { font-size:10pt; }
 .fs12  { font-size:12pt; }
@@ -44,10 +44,10 @@ p#ptitle { font-size:18pt; }
 div#pagemain { padding:5px 10px; }
 
 span.ver { font-size:13pt;font-weight:bold; }
-span.name { font-family:"ºÚÌå";color:purple; }
+span.name { font-family:"é»‘ä½“";color:purple; }
 
 p.pictitle {
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	font-size:12pt;
 }
 
@@ -62,12 +62,12 @@ td {
 	padding:3px 0;
 }
 td.tbhd {
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	font-size:12pt;
 	color:blue;
 }
 td.grade {
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	font-size:12pt;
 	font-weight:bold;
 	width:70px;
@@ -75,7 +75,7 @@ td.grade {
 	max-width:85px;
 }
 td.intro {
-	font-family:"ËÎÌå","·ÂËÎ","»ªÎÄ·ÂËÎ","¿¬Ìå","»ªÎÄ¿¬Ìå";
+	font-family:"å®‹ä½“","ä»¿å®‹","åæ–‡ä»¿å®‹","æ¥·ä½“","åæ–‡æ¥·ä½“";
 	font-size:11pt;
 	width:550px;
 	min-width:550px;
@@ -84,7 +84,7 @@ td.intro {
 
 p.sign {
 	text-align:right;
-	font-family:"ºÚÌå","ËÎÌå";
+	font-family:"é»‘ä½“","å®‹ä½“";
 	font-size:10pt;
 	color:#888;
 	margin:0;

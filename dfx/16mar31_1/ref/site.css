@@ -1,4 +1,4 @@
-/* Ğ¡ÍøÕ¾Í³Ò»¶¥¶ËÀ¸ */
+/* å°ç½‘ç«™ç»Ÿä¸€é¡¶ç«¯æ  */
 
 div.siteTopBar {
 	margin:2px 2px;
@@ -6,7 +6,7 @@ div.siteTopBar {
 	background-color:green;
 	color:yellow;
 	font-size:11pt;
-	font-family:"ºÚÌå","ËÎÌå",Serif;
+	font-family:"é»‘ä½“","å®‹ä½“",Serif;
 	border:none;
 	text-align:left;
 	text-indent:0;
@@ -29,16 +29,16 @@ span.help1    { color:lime; }
 
 button {
 	font-size:10pt;
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 }
 
 p.funcs {
 	font-size:10pt;
 	color:#EEE;
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 }
 
 /*
-2016.3.25¿ªÊ¼±àĞ´£¬31·¢²¼
+2016.3.25å¼€å§‹ç¼–å†™ï¼Œ31å‘å¸ƒ
 
 */

@@ -1,32 +1,32 @@
-/* ¾ÛÂäµØÃûÊÕ¼¯Íê±¸³Ì¶ÈµÈ¼¶±ê×¼ ÑùÊ½ */
+/* èšè½åœ°åæ”¶é›†å®Œå¤‡ç¨‹åº¦ç­‰çº§æ ‡å‡† æ ·å¼ */
 
 body { margin:5px;background-color:#E0E0E0; }
 p    { margin:5px 0;line-height:1.3em; }
 div  { margin:0;padding:0; }
 
-p.para { text-indent:2em;font-size:11pt; } /* Ä¬ÈÏÑùÊ½¡£·¢²¼²©¿ÍÊ±×¢ÒâÁªºÏp{}ÑùÊ½ */
+p.para { text-indent:2em;font-size:11pt; } /* é»˜è®¤æ ·å¼ã€‚å‘å¸ƒåšå®¢æ—¶æ³¨æ„è”åˆp{}æ ·å¼ */
 p.p0 { text-indent:0em; }
-.explain { font-family:"·ÂËÎ","»ªÎÄ·ÂËÎ","¿¬Ìå","»ªÎÄ¿¬Ìå";color:#222; }
+.explain { font-family:"ä»¿å®‹","åæ–‡ä»¿å®‹","æ¥·ä½“","åæ–‡æ¥·ä½“";color:#222; }
 hr   { background-color:#666; }
 
 h2 {
-	font-family:"ËÎÌå","ĞÂËÎÌå";
+	font-family:"å®‹ä½“","æ–°å®‹ä½“";
 	font-size:15pt;
 	font-weight:bold;
 }
 h3 {
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	font-size:13pt;
 	font-weight:bold;
 }
 
 .arial { font-family:Arial; }
-.heiti { font-family:"ºÚÌå"; }
+.heiti { font-family:"é»‘ä½“"; }
 .fs9   { font-size:9pt; }
 .fs10  { font-size:10pt; }
 .fs11  { font-size:11pt; }
 .fs12  { font-size:12pt; }
-p.fs9   { font-size:9pt; }/*ÓÅÏÈ¼¶ÎÊÌâ*/
+p.fs9   { font-size:9pt; }/*ä¼˜å…ˆçº§é—®é¢˜*/
 p.fs10  { font-size:10pt; }
 p.fs11  { font-size:11pt; }
 p.fs12  { font-size:12pt; }
@@ -53,7 +53,7 @@ p#ptitle { font-size:18pt; }
 div#pagemain { padding:5px 10px; }
 
 span.ver   { font-size:13pt;font-weight:bold; }
-span.name  { font-family:"ºÚÌå";color:purple; }
+span.name  { font-family:"é»‘ä½“";color:purple; }
 span.note1 { font-size:10pt;color:#888; }
 
 table {
@@ -68,12 +68,12 @@ td {
 }
 /*maintable*/
 td.tbhd {
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	font-size:12pt;
 	color:blue;
 }
 td.grade {
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	font-size:12pt;
 	font-weight:bold;
 	width:80px;
@@ -81,7 +81,7 @@ td.grade {
 	max-width:90px;
 }
 td.gradeCer {
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	font-size:12pt;
 	font-weight:bold;
 	width:88px;
@@ -89,7 +89,7 @@ td.gradeCer {
 	max-width:96px;
 }
 td.intro {
-	font-family:"ËÎÌå","·ÂËÎ","»ªÎÄ·ÂËÎ","¿¬Ìå","»ªÎÄ¿¬Ìå";
+	font-family:"å®‹ä½“","ä»¿å®‹","åæ–‡ä»¿å®‹","æ¥·ä½“","åæ–‡æ¥·ä½“";
 	font-size:11pt;
 	width:550px;
 	min-width:550px;
@@ -99,7 +99,7 @@ td.intro {
 table#extable    { border-collapse:collapse;border:2px solid #222; }
 table#extable td { border:1px solid #666;padding:2px 3px; }
 td.area {
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	font-size:11pt;
 	width:80px;
 	min-width:80px;
@@ -107,19 +107,19 @@ td.area {
 	vertical-align:middle;
 }
 td.offi {
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	font-size:12pt;
 	width:85px;
 	min-width:85px;
 }
 td.stan {
-	font-family:"ºÚÌå";
+	font-family:"é»‘ä½“";
 	font-size:12pt;
 	width:80px;
 	min-width:80px;
 }
 td.fact {
-	font-family:"ËÎÌå";
+	font-family:"å®‹ä½“";
 	font-size:11pt;
 	width:400px;
 	min-width:200px;
@@ -127,13 +127,13 @@ td.fact {
 
 p.sign {
 	text-align:right;
-	font-family:"ºÚÌå","ËÎÌå";
+	font-family:"é»‘ä½“","å®‹ä½“";
 	font-size:10pt;
 	color:#888;
 	margin:0;
 }
 
 /*
-2016.3.21-22£¬ÔÚĞ¡µØÃûµÈ¼¶ÍøÒ³»ù´¡ÉÏĞŞ¸Ä£¬25·¢²¼
+2016.3.21-22ï¼Œåœ¨å°åœ°åç­‰çº§ç½‘é¡µåŸºç¡€ä¸Šä¿®æ”¹ï¼Œ25å‘å¸ƒ
 
 */
