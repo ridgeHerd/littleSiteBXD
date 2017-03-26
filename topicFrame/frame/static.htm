@@ -3,7 +3,7 @@
 
 <title>话题框架 统计</title>
 
-<meta charset="utf-8" />
+<meta charset="UTF-8" />
 <meta name="robots" content="all" />
 <meta name="author" content="Monthly Bulletin for Arrangement of Xinbin Dialect, BXD" />
 <meta name="keywords" content="topic frame, BXD, dialect, folklore, collecting" />
@@ -15,14 +15,16 @@
 <link rel="stylesheet" type="text/css" href="design/main.css" />
 <link rel="stylesheet" type="text/css" href="design/main2.css" />
 <link rel="stylesheet" type="text/css" href="design/static.css" />
-<link rel="stylesheet" type="text/css" href="design/static2.css" id="perCss" />
+<link rel="stylesheet" type="text/css" href="design/static1.css" id="perCss" />
+<link rel="stylesheet" type="text/css" href="design/sideNaviBar.css" />
+<script src="design/sideNaviBar.js"></script>
 
 <style type="text/css">
 
 </style>
 
 <script>
-var iStyle = 2;
+var iStyle = 1;
 
 /*2016.3.26编写
 选择风格*/
@@ -39,8 +41,8 @@ function switchStyle(){
 		iStyle = 1;
 		break;
 	default:
-		x.href = "design/static2.css";
-		iStyle = 2;
+		x.href = "design/static1.css";
+		iStyle = 1;
 		break;
 	}
 	setStyleSta();
@@ -50,8 +52,8 @@ function switchStyle(){
 恢复默认风格*/
 function resetStyle(){
 	var x = document.getElementById("perCss");
-	x.href = "design/static2.css";
-	iStyle = 2;
+	x.href = "design/static1.css";
+	iStyle = 1;
 	setStyleSta();
 }
 
@@ -115,7 +117,7 @@ function autoStyle(){
 	</table>
 	<p class="para p0 narr">
 		<a class="good" onclick="switchStyle()">切换页面风格</a> <a class="good" onclick="resetStyle()" style="margin-left:1em;">默认风格</a>
-		&nbsp;当前风格：<span id="sty1" class="arial">1</span> <span id="sty2" class="arial" style="background-color:orange;font-weight:bold;">2</span>(默认)
+		&nbsp;当前风格：<span id="sty1" class="arial" style="background-color:orange;font-weight:bold;">1</span>(默认) <span id="sty2" class="arial">2</span>
 	</p>
 </div>
 
@@ -778,6 +780,24 @@ function autoStyle(){
 	</p>
 </div><!-- bottom -->
 
+<!--浮动导航栏-->
+<div class="topbotDiv">
+<a class="toTop" href="frame/static.htm#commonhead">回顶部</a> <a class="toBottom" href="frame/static.htm#commonbottom">去底部</a>
+</div>
+<div id="sidenavi">
+	<p id="sideNaviTip" onclick="closeSideNavi()">收起</p>
+	<div id="sideNaviFold">
+	<p class="sideNaviItem"><a class="toTop" href="frame/static.htm#commonhead">回顶部</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/static.htm#table1-a">1 方言</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/static.htm#table2-a">2 民俗</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/static.htm#table3-a">3 地理</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/static.htm#table4-a">4 文艺</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/static.htm#table5-a">5 历史</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/static.htm#table6-a">6 自然</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/static.htm#table7-a">7 业界</a></p>
+	<p class="sideNaviItem"><a class="toBottom" href="frame/static.htm#commonbottom">去底部</a></p>
+	</div>
+</div>
 </body></html>
 
 <!--
@@ -788,7 +808,7 @@ v1.1发布
 
 修改记录
 ----------
-3.26增加js切换风格
-2017.3.22开始v1.1.2修订
+2016.3.26增加js切换风格
+v1.1.2修订
 
 -->

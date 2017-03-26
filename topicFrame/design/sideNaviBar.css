@@ -1,0 +1,33 @@
+/*右侧导航栏*/
+
+div#sidenavi {
+	width:90px;
+	background-color:#F8F8F8;
+	padding:10px;
+	border:2px solid #E6E6E6;
+	border-radius:6px;
+	position:fixed;
+	top:200px;
+	right:8px;/*border width 2px*/
+}
+p#sideNaviTip {
+	text-align:right;
+	line-height:1em;
+	margin:0;
+	color:#888;
+}
+p.sideNaviItem {
+	line-height:1.25em;
+	margin:0em;
+	font-size:12pt;
+	font-weight:normal;
+	font-family:"黑体",SimHei;
+}
+
+/*
+2017.3.26为v.1.1.2增加
+
+修改记录
+----------
+
+*/

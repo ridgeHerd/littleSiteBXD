@@ -1,11 +1,10 @@
-/* static2 简洁风格 */
+/* static1 古朴风格 */
 
 table.staticT {
-	border:2px solid #222;
-	border-collapse:collapse;
+	border:3pt solid #666;
 }
 table.staticT td {
-	border:1px solid #222;
+	border:2pt solid #555;
 	height:36px;
 	width:75px;
 	text-align:center;
@@ -18,7 +17,7 @@ td.tpc9 {/*表头*/
 	background-color:orange;
 	font-size:11pt;
 }
-td.tpc0 { background-color:#AAA; }
+td.tpc0 { background:#AAA; }
 td.tpcn {
 	background-color:LightGreen;
 	font-size:11pt;
@@ -46,7 +45,8 @@ table#staT0 td {
 table#staT0 td.tpc9 { width:80px;min-width:80px; }
 td.tpctt {
 	font-weight:bold;
-	font-size:12pt;
+	font-size:13pt;
+	letter-spacing:2px;
 	color:yellow;
 	background-color:LimeGreen;
 }
@@ -65,7 +65,7 @@ td.tpcttnum {
 	font-weight:bold;
 	font-size:15pt;
 	font-family:"Arial Black","Arial";
-	color:yellow;
+	color:red;
 	background-color:cornflowerblue;
 }
 
@@ -75,6 +75,6 @@ v1.1发布
 
 修改记录
 ----------
-2017.3.22开始v.1.1.2修订
+v.1.1.2修订
 
 */

@@ -3,7 +3,7 @@
 
 <title>话题框架 所有话题列表</title>
 
-<meta charset="utf-8" />
+<meta charset="UTF-8" />
 <meta name="robots" content="all" />
 <meta name="author" content="Monthly Bulletin for Arrangement of Xinbin Dialect, BXD" />
 <meta name="keywords" content="topic frame, BXD, dialect, folklore, collecting" />
@@ -14,9 +14,11 @@
 <link rel="stylesheet" type="text/css" href="design/main.css" />
 <link rel="stylesheet" type="text/css" href="design/main2.css" />
 <link rel="stylesheet" type="text/css" href="design/topiclist.css" />
+<link rel="stylesheet" type="text/css" href="design/sideNaviBar.css" />
+<script src="design/sideNaviBar.js"></script>
 
 <style type="text/css">
-
+div#conclusion { margin-left:20px; }
 </style>
 
 </head><body>
@@ -33,6 +35,8 @@
 </div>
 
 <div id="main" class="pagemain">
+
+<div id="mainlist">
 
 <!-- 导引栏 -->
 <div id="navi">
@@ -81,8 +85,6 @@
 	<p class="tpcnavi" class="tpcnavi"><a class="navilink" href="frame/list/classIV.htm#tpc7">7 业界</a></p>
 </div>
 <p id="tip_ex">点击一、二级话题可转到话题详情</p>
-
-<div id="mainlist">
 
 <p id="tpc1" class="topicI"><a class="tpcdtl" target="_blank" href="frame/1_dialect.htm">1 方言</a> <a class="toTop" href="frame/list/classIV.htm#commonheadp6">回顶部</a></p>
 
@@ -937,6 +939,25 @@
 	</p>
 </div>
 
+<!--浮动导航栏-->
+<div class="topbotDiv">
+<a class="toTop" href="frame/list/classIV.htm#commonhead">回顶部</a> <a class="toBottom" href="frame/list/classIV.htm#commonbottom">去底部</a>
+</div>
+<div id="sidenavi">
+	<p id="sideNaviTip" onclick="closeSideNavi()">收起</p>
+	<div id="sideNaviFold">
+	<p class="sideNaviItem"><a class="toTop" href="frame/list/classIV.htm#commonhead">回顶部</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/list/classIV.htm#tpc1">1 方言</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/list/classIV.htm#tpc2">2 民俗</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/list/classIV.htm#tpc3">3 地理</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/list/classIV.htm#tpc4">4 文艺</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/list/classIV.htm#tpc5">5 历史文化</a></p>
+	<p class="sideNaviItem"><a class="navilink" href="frame/list/classIV.htm#tpc6">6 自然</a>
+	<p class="sideNaviItem"><a class="navilink" href="frame/list/classIV.htm#tpc7">7 业界</a></p>
+	<p class="sideNaviItem"><a class="toBottom" href="frame/list/classIV.htm#commonbottom">去底部</a></p>
+	</div>
+</div>
+
 </body></html>
 
 <!--
@@ -946,6 +967,6 @@ v1.1发布
 
 修改记录
 ----------
-2017.3.22开始v1.1.2修订
+v1.1.2修订
 
 -->

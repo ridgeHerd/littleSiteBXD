@@ -1,4 +1,4 @@
-/* 方言民俗收集话题框架 v1.1 CSS */
+/* 方言民俗收集话题框架 CSS */
 
 /* 基本 */
 body { background-color:#E6E6E6;margin:2px; }
@@ -6,6 +6,7 @@ div  { margin:0px;padding:0px; }
 div.pagemain {
 	width:1210px;
 	max-width:1210px;/*为了我框架文档的尊严，不设不行*/
+	margin-bottom:20px;
 	padding:5px;
 }
 
@@ -97,7 +98,7 @@ p#commonheadp4 { /*框架英文名*/
 	text-align:center;
 }
 p#commonheadp5 { /*标题*/
-	margin-top:14px;
+	margin-top:12px;
 	margin-bottom:0px;
 	font-size:17pt;
 	font-weight:bold;
@@ -117,7 +118,7 @@ p#commonheadp6 span#hp6s1 { /*路径*/
 hr#headhr {
 	height:2px;
 	background-color:#666;
-	margin:4px 10px;
+	margin:2px 10px;
 	border:none;
 }
 span.smallspan { font-size:10pt; }
@@ -195,11 +196,12 @@ p#signature {
 	text-align:right;
 	font-family:"宋体",Serif;
 	font-size:10pt;
-	margin:8px 0px;
+	margin:6px 0px;
 }
 p#bottomicon {
 	text-align:right;
-	margin:8px 0px;margin-bottom:4px;
+	margin-top:8px;
+	margin-bottom:4px;
 }
 
 p#signature a {
@@ -236,6 +238,20 @@ a.toTop:hover, a.toTop:active, a.toBottom:hover, a.toBottom:active {
 	text-decoration:underline;
 }
 
+/*浮动导航栏*/
+div.topbotDiv {
+	width:120px;
+	padding:4px;
+	background-color:#DDD;
+	border:none;
+	border-radius:6px;
+	text-align:center;
+	/*统一的初始位置规定*/
+	position:fixed;
+	right:10px;
+	top:25px;
+}
+
 /*
 2015.12.26基本定型
 2016.3.13细调
@@ -243,6 +259,6 @@ v1.1发布
 
 修改记录
 ----------
-2017.3.22开始v.1.1.2修订
+v.1.1.2修订
 
 */
