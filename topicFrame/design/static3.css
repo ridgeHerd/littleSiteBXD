@@ -1,4 +1,4 @@
-/* static1 标准风格 */
+/* static3 简洁风格 */
 
 table.staticT {
 	border:2px solid #222;
@@ -15,20 +15,20 @@ table.staticT td {
 
 td.tpc9 {/*表头*/
 	height:30px;
-	background-color:orange;
+	background-color:none;
 	font-size:11pt;
 }
-td.tpc0 { background-color:#AAA; }
+td.tpc0 { background-color:#D3D3D3; }
 td.tpcn {
-	background-color:LightGreen;
+	background-color:none;
 	font-size:11pt;
 }
 td.tpcn1 {
-	background-color:LightGreen;
+	background-color:none;
 	font-size:11pt;
 	font-weight:bold;
 }
-td.sub0, td.tpc00 { background-color:lightblue; }
+td.sub0, td.tpc00 { background-color:#D3D3D3; }
 td.tpc2, td.tpc3, td.tpc4, td.sub, td.all { font-size:14pt; }
 td.sub, td.all { color:orangered; }
 
@@ -47,35 +47,32 @@ table#staT0 td.tpc9 { width:80px;min-width:80px; }
 td.tpctt {
 	font-weight:bold;
 	font-size:12pt;
-	color:yellow;
-	background-color:LimeGreen;
+	color:red;
+	background-color:none;
 }
 td.tpcnum {
 	font-family:"Arial";
 	font-size:13pt;
-	background-color:PaleTurquoise;
+	background-color:none;
 }
 td.tpctnum {
 	font-family:"Arial";
 	font-weight:bold;
 	font-size:13pt;
-	background-color:LightBlue;
+	background-color:none;
 }
 td.tpcttnum {
 	font-weight:bold;
 	font-size:15pt;
 	font-family:"Arial Black","Arial";
-	color:yellow;
-	background-color:cornflowerblue;
+	color:red;
+	background-color:none;
 }
 
 /*
-2015.12.27分离
-v1.1发布
+2017.3.31为v1.1.3添加
 
 修改记录
 ----------
-v1.1.2修订
-v1.1.3修订
 
 */

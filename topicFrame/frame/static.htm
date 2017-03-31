@@ -8,7 +8,7 @@
 <meta name="author" content="Monthly Bulletin for Arrangement of Xinbin Dialect, BXD" />
 <meta name="keywords" content="topic frame, BXD, dialect, folklore, collecting" />
 <meta name="description" content="Topic Frame for Collecting of Dialect and Folklore (for Xinbin)" />
-<meta name="release date" content="Mar 2017" />
+<meta name="release date" content="Apr 2017" />
 
 <base href="../" />
 
@@ -17,81 +17,26 @@
 <link rel="stylesheet" type="text/css" href="design/static.css" />
 <link rel="stylesheet" type="text/css" href="design/static1.css" id="perCss" />
 <link rel="stylesheet" type="text/css" href="design/sideNaviBar.css" />
+<script src="design/staticStyles.js"></script>
 <script src="design/sideNaviBar.js"></script>
 
 <style type="text/css">
 
+div#sidenavi { top:145px; }
+
+div#sideStyleControl { margin-top:6px; }
+div#sideStyleControl p { font-family:"微软雅黑","黑体","幼圆";font-size:11pt;margin:2px 0; }
+div#sideStyleControl span.stybtn { padding:1px 8px; }
+
 </style>
 
-<script>
-var iStyle = 1;
-
-/*2016.3.26编写
-选择风格*/
-function switchStyle(){
-	var x = document.getElementById("perCss");
-	switch(iStyle)
-	{
-	case 1:
-		x.href = "design/static2.css";
-		iStyle = 2;
-		break;
-	case 2:
-		x.href = "design/static1.css";
-		iStyle = 1;
-		break;
-	default:
-		x.href = "design/static1.css";
-		iStyle = 1;
-		break;
-	}
-	setStyleSta();
-}
-
-/*2016.3.26编写
-恢复默认风格*/
-function resetStyle(){
-	var x = document.getElementById("perCss");
-	x.href = "design/static1.css";
-	iStyle = 1;
-	setStyleSta();
-}
-
-/*更新显示状态*/
-function setStyleSta(){
-	var x,y;
-	switch(iStyle)
-	{
-	case 1:
-		x = document.getElementById("sty1");
-		y = document.getElementById("sty2");
-		break;
-	case 2:
-		x = document.getElementById("sty2");
-		y = document.getElementById("sty1");
-		break;
-	}
-	x.style.backgroundColor = "orange";
-	x.style.fontWeight = "bold";
-	y.style.backgroundColor = "";
-	y.style.fontWeight = "normal";
-}
-
-/*备用*//*
-var iStyleNum = _;
-function autoStyle(){
-	if(iStyle < iStyleNum)
-	else if(iStyle == iStyleNum)
-}*/
-</script>
-
-</head><body>
+</head><body onload="updateStyleBtn();">
 
 <div id="commonhead">
 	<p id="commonheadp1">新宾方言整理月报</p>
 	<p id="commonheadp2">Monthly Bulletin for Arrangement of Xinbin Dialect (BXD)</p>
-	<p id="commonheadp3">方言民俗收集话题框架(新宾) <span id="VER">第1.1.2版 网页版 2017年3月</span></p>
-	<p id="commonheadp4">Topic Frame for Collecting of Dialect and Folklore (for Xinbin), TFCDF(Xinbin) &nbsp;&nbsp;v1.1.2 (Mar 2017)</p>
+	<p id="commonheadp3">方言民俗收集话题框架(新宾) <span id="VER">第1.1.3版 网页版 2017年4月</span></p>
+	<p id="commonheadp4">Topic Frame for Collecting of Dialect and Folklore (for Xinbin), TFCDF(Xinbin) &nbsp;&nbsp;v1.1.3 (Apr 2017)</p>
 	<p id="commonheadp5">统计</p>
 	<p id="commonheadp6">
 		<span id="hp6s1">当前位置: <a href="main.htm" class="headlink">框架首页</a><span class="smallspan">(一级话题列表)</span> &#62;&#62; 统计</span>
@@ -115,9 +60,13 @@ function autoStyle(){
 			<td><a class="navilink" href="frame/static.htm#table7-a">7 业界</a></td>
 		</tr>
 	</table>
-	<p class="para p0 narr">
-		<a class="good" onclick="switchStyle()">切换页面风格</a> <a class="good" onclick="resetStyle()" style="margin-left:1em;">默认风格</a>
-		&nbsp;当前风格：<span id="sty1" class="arial" style="background-color:orange;font-weight:bold;">1</span>(默认) <span id="sty2" class="arial">2</span>
+	<p class="para p0 narr" style="font-family:'微软雅黑','黑体','幼圆';">
+		<a class="good" onclick="switchStyle();">轮换页面风格</a>
+		&nbsp;可选风格：
+		<span id="sty1" class="stybtn" onclick="chooseStyle(1);">标准</span>
+		<span id="sty2" class="stybtn" onclick="chooseStyle(2);">怀旧</span>
+		<span id="sty3" class="stybtn" onclick="chooseStyle(3);">简洁</span>
+		<span id="sty4" class="stybtn" onclick="chooseStyle(4);">纯文本</span>
 	</p>
 </div>
 
@@ -757,6 +706,7 @@ function autoStyle(){
 <div id="conclusion">
 	<p class="text">初步统计工作完成于<span class="date">2016.1.13</span>，网页编写完成于<span class="date">2016.1.14</span>。</p>
 	<p class="text">最终统计工作完成于<span class="date">2016.3.14</span> <span class="arial">16</span>时。</p>
+	<p class="text"><span class="date">2017.3.31</span>完善了四种页面风格的切换。</p>
 </div>
 
 </div><!-- main -->
@@ -785,7 +735,7 @@ function autoStyle(){
 <a class="toTop" href="frame/static.htm#commonhead">回顶部</a> <a class="toBottom" href="frame/static.htm#commonbottom">去底部</a>
 </div>
 <div id="sidenavi">
-	<p id="sideNaviTip" onclick="closeSideNavi()">收起</p>
+	<p id="sideNaviTip" onclick="controlSideNavi()">收起</p>
 	<div id="sideNaviFold">
 	<p class="sideNaviItem"><a class="toTop" href="frame/static.htm#commonhead">回顶部</a></p>
 	<p class="sideNaviItem"><a class="navilink" href="frame/static.htm#table1-a">1 方言</a></p>
@@ -796,6 +746,12 @@ function autoStyle(){
 	<p class="sideNaviItem"><a class="navilink" href="frame/static.htm#table6-a">6 自然</a></p>
 	<p class="sideNaviItem"><a class="navilink" href="frame/static.htm#table7-a">7 业界</a></p>
 	<p class="sideNaviItem"><a class="toBottom" href="frame/static.htm#commonbottom">去底部</a></p>
+	</div><div id="sideStyleControl"><!--不收起--><!--风格多了以后，可以二者横排-->
+	<p class="sideNaviItem"><a class="good" onclick="switchStyle();">轮换风格</a></p>
+	<p class="sideNaviItem"><span id="sty1sb" class="stybtn" onclick="chooseStyle(1);">标准</span></p>
+	<p class="sideNaviItem"><span id="sty2sb" class="stybtn" onclick="chooseStyle(2);">怀旧</span></p>
+	<p class="sideNaviItem"><span id="sty3sb" class="stybtn" onclick="chooseStyle(3);">简洁</span></p>
+	<p class="sideNaviItem"><span id="sty4sb" class="stybtn" onclick="chooseStyle(4);">纯文本</span></p>
 	</div>
 </div>
 </body></html>
@@ -810,5 +766,6 @@ v1.1发布
 ----------
 2016.3.26增加js切换风格
 v1.1.2修订
+v1.1.3修订，添加丰富的js功能
 
 -->

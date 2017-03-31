@@ -11,6 +11,8 @@ div#sidenavi {
 	right:8px;/*border width 2px*/
 }
 p#sideNaviTip {
+	font-size:11pt;
+	font-family:"宋体","新宋体","黑体";
 	text-align:right;
 	line-height:1em;
 	margin:0;
@@ -25,9 +27,10 @@ p.sideNaviItem {
 }
 
 /*
-2017.3.26为v.1.1.2增加
+2017.3.26为v1.1.2增加
 
 修改记录
 ----------
+v1.1.3修订
 
 */

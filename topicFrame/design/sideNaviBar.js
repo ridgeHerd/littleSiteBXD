@@ -1,10 +1,12 @@
-/*侧边导航栏 sideNavi 2017Mar26增加*/
+/* 侧边导航栏 sideNavi 2017Mar26增加 */
+
+'use strict';
 
 var sideNaviFlag = true;
 var strSideNaviCmd;
 var strSideNaviTip;
 
-function closeSideNavi(){
+function controlSideNavi(){
 	if (sideNaviFlag){
 		strSideNaviCmd = "none";
 		strSideNaviTip = "展开";
@@ -24,5 +26,6 @@ function closeSideNavi(){
 
 修改记录
 ----------
+v1.1.3修订(函数名，strict模式)
 
 */

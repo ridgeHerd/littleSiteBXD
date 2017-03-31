@@ -14,12 +14,16 @@ table.staticT {
 	margin:10px 10px;
 }
 
+/*style button span*/
+span.stybtn { margin:0 2px;padding:2px 4px;border-radius:4px; }
+
 /*
 2016.1.6分离
 v1.1发布
 
 修改记录
 ----------
-v.1.1.2修订
+v1.1.2修订
+v1.1.3修订
 
 */

@@ -133,12 +133,29 @@ span.bold   { font-weight:bold; }
 
 p.heitipara { font-family:"黑体"; }
 
+p.fs11 { font-size:11pt; }
+
+/* 纯文字列表 */
+table.pureTextTable {
+	margin:0;
+	border-collapse:collapse;
+	border:none;
+	border-spacing:0;
+	background:none;
+}
+table.pureTextTable td {
+	padding:0;
+	border:none;
+	background:none;
+}
+
 /*
 2015.12.30开始
 v1.1发布
 
 修改记录
 ----------
-v.1.1.2修订
+v1.1.2修订
+v1.1.3修订
 
 */

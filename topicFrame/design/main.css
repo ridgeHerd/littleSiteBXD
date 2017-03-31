@@ -5,9 +5,10 @@ body { background-color:#E6E6E6;margin:2px; }
 div  { margin:0px;padding:0px; }
 div.pagemain {
 	width:1210px;
+	min-width:1210px;
 	max-width:1210px;/*为了我框架文档的尊严，不设不行*/
 	margin-bottom:20px;
-	padding:5px;
+	padding:6px;
 }
 
 p       { text-align:left;margin:0px;text-indent:0em; }
@@ -34,7 +35,7 @@ a.headlink:active  { color:orange;text-decoration:underline; }
 a.inner            { color:green;text-decoration:underline; }
 a.inner:visited    { color:green;text-decoration:underline; }
 a.inner:hover      { color:orangered;text-decoration:underline; }
-a.inner:active     { color:orangered;text-decoration:underline;font-weight:bold; }
+a.inner:active     { color:orange;text-decoration:underline; }
 
 abbr.note { font-style:italic; }
 
@@ -259,6 +260,7 @@ v1.1发布
 
 修改记录
 ----------
-v.1.1.2修订
+v1.1.2修订
+v1.1.3修订
 
 */
